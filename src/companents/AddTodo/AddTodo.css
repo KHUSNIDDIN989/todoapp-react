@@ -1,0 +1,22 @@
+.add-todo {
+  display: flex;
+  flex: 1;
+  margin-top: 24px!important;
+}
+.btn {
+  margin-left: 12px;
+}
+.listitem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 24px;
+  padding: 10px;
+  transition: 0.5s all linear;
+  border-radius: 3px;
+}
+.listitem:hover {
+  background: rgb(101, 141, 148);
+  color: #fff;
+}
